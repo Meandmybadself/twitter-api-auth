@@ -43,6 +43,9 @@ const run = async () => {
                 forceLogin: true
             })
 
+
+            console.log(rsp)
+
             oauth_token = rsp.oauth_token
             oauth_token_secret = rsp.oauth_token_secret
 
@@ -62,7 +65,7 @@ const run = async () => {
             accessSecret: oauth_token_secret
         });
         const { client, ...args } = await twitter.login(oauth_verifier)
-        res.json(args)
+        res.json({ ...args, oauth_verifier })
         process.exit(0)
     })
 }

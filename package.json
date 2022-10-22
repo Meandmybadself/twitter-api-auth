@@ -1,7 +1,7 @@
 {
-  "name": "twitter-api-token",
+  "name": "twitter-get-oauth1-token",
   "version": "1.0.1",
-  "description": "CLI tool to get an OAuth 1.0 Twitter API token",
+  "description": "CLI to generate a OAuth 1.0 Twitter API token",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -14,9 +14,13 @@
   "files": [
     "index.js"
   ],
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "twitter",
+    "oauth1",
+    "api"
+  ],
+  "author": "Jeffery Bennett <me@meandmybadself.com>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.1",
     "open": "^8.4.0",

@@ -1,11 +1,11 @@
 # Twitter API Auth
 
 ## Overview
-When creating bots, I always forget how to generate a refresh token for another user via the OAuth 1.0 flow.
-I tried creating OAuth 2.0 flows, but I think it required persisting a refresh token.  
-If I can just use the 1.0 token perpetually, that's better.
+When creating bots, I always forget how to generate an auth token for another user via the OAuth 1.0 flow.
+I tried creating OAuth 2.0 flows, but I think it required persisting a refresh token.
+If I can just use the 1.0 token perpetually, that's better. (If I'm wrong on this, I'd love to know more.)
 
-(If I'm wrong on this, I'd love to know more.)
+My goal is to get this npx'able, but I'm not sure what is necessary.
 
 ## Related
 
