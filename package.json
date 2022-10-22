@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Meandmybadself/twitter-api-auth"
+    "url": "https://github.com/Meandmybadself/twitter-oauth1-token"
   },
   "scripts": {
     "start": "node index.js",
