@@ -1,5 +1,5 @@
 {
-  "name": "twitter-get-oauth1-token",
+  "name": "twitter-oauth1-token",
   "version": "1.0.2",
   "description": "CLI to generate a OAuth 1.0 Twitter API token",
   "main": "index.js",
